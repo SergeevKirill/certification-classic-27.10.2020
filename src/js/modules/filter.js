@@ -104,7 +104,7 @@ export const filter = () => {
 		window.history.pushState(
 			{},
 			'',
-			`${window.location.origin}?${encodeToUrl(filterValues)}`
+			`${window.location.href}?${encodeToUrl(filterValues)}`
 		);
 
 		const $filteredData = data.filter((el) => {
