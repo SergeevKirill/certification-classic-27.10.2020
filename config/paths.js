@@ -17,7 +17,7 @@ module.exports = {
 	build: {
 		content: fromCWD('/public'),
 		publicPath: '/',
-        dist: fromCWD('docs/')
+		dist: fromCWD('docs/')
 	},
 	modules: [
 		fromCWD('./node_modules/'),

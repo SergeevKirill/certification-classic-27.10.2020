@@ -15,17 +15,23 @@ export const filter = () => {
 	const $lastPaginationItem = $('[data-pagination-last]');
 
 	const getFilterValues = () => {
-		const values = $form.serializeArray().map(el => ({ [el.name]: el.value })).reduce((acc, item) => {
-			const key = Object.keys(item)[0];
-			if (!key.endsWith('[]')) {
-				acc[key] = +item[key] ? +item[key] : item[key];
-			}
-			return acc;
-		}, {});
+		const values = $form
+			.serializeArray()
+			.map((el) => ({ [el.name]: el.value }))
+			.reduce((acc, item) => {
+				const key = Object.keys(item)[0];
+				if (!key.endsWith('[]')) {
+					acc[key] = +item[key] ? +item[key] : item[key];
+				}
+				return acc;
+			}, {});
 
 		$inputFields.each((i, el) => {
 			if (el.name.endsWith('[]')) {
-				if (el.getAttribute('type') === 'checkbox' || el.getAttribute('type') === 'radio') {
+				if (
+					el.getAttribute('type') === 'checkbox' ||
+					el.getAttribute('type') === 'radio'
+				) {
 					if ($(el).prop('checked')) {
 						const name = el.name.replace('[]', '');
 						if (values[name]) {
@@ -59,7 +65,7 @@ export const filter = () => {
 			price = [],
 			sort,
 			perPage = 15,
-			page = 1,
+			page = 1
 		} = values;
 
 		const data = {
@@ -95,9 +101,13 @@ export const filter = () => {
 	$inputFields.on('change', () => {
 		console.log(getGroupedValues(getFilterValues()));
 		const filterValues = getFilterValues();
-		window.history.pushState({}, '', `${window.location.origin}?${encodeToUrl(filterValues)}`);
+		window.history.pushState(
+			{},
+			'',
+			`${window.location.origin}?${encodeToUrl(filterValues)}`
+		);
 
-		const $filteredData = data.filter(el => {
+		const $filteredData = data.filter((el) => {
 			let isSuitable = true;
 
 			encodeOrder.forEach((key) => {
@@ -108,7 +118,10 @@ export const filter = () => {
 					if (Array.isArray(filterValue) && key !== 'price') {
 						isSuitable = isSuitable && filterValue.includes(value);
 					} else if (key === 'price') {
-						isSuitable = isSuitable && filterValue[0] <= value && filterValue[1] >= value;
+						isSuitable =
+							isSuitable &&
+							filterValue[0] <= value &&
+							filterValue[1] >= value;
 					} else {
 						isSuitable = isSuitable && filterValue === value;
 					}
@@ -119,25 +132,29 @@ export const filter = () => {
 		});
 		const $template = $('#card-template').clone(true, true);
 
-		const sortedData = $filteredData.sort((a, b) => {
-			const {
-				sort
-			} = getFilterValues();
+		const sortedData = $filteredData
+			.sort((a, b) => {
+				const { sort } = getFilterValues();
 
-			switch (sort) {
-				case 1:
-					return a.price.value > b.price.value ? 1 : -1;
-				case 2:
-					return a.price.value < b.price.value ? 1 : -1;
-				case 3:
-					return a.year < b.year ? -1 : 1;
-				case 4:
-					return a.year > b.year ? -1 : 1;
-			}
-		})
-			.slice(filterValues.page * filterValues.perPage, filterValues.page * filterValues.perPage + filterValues.perPage)
+				switch (sort) {
+					case 1:
+						return a.price.value > b.price.value ? 1 : -1;
+					case 2:
+						return a.price.value < b.price.value ? 1 : -1;
+					case 3:
+						return a.year < b.year ? -1 : 1;
+					case 4:
+						return a.year > b.year ? -1 : 1;
+				}
+			})
+			.slice(
+				filterValues.page * filterValues.perPage,
+				filterValues.page * filterValues.perPage + filterValues.perPage
+			)
 			.reduce((acc, el) => {
-				acc += $template.html().replace('{brand}', el.brand.name)
+				acc += $template
+					.html()
+					.replace('{brand}', el.brand.name)
 					.replace('{image}', el.image.sizes['card-preview'])
 					.replace('{alt}', el.image.alt)
 					.replace('{manufacturer}', el.manufacturer.name)
@@ -154,14 +171,18 @@ export const filter = () => {
 			$paginationField.val(1).trigger('change');
 		}
 
-		const totalPagesCount = Math.round(($($filteredData).length) / filterValues.perPage);
+		const totalPagesCount = Math.round(
+			$($filteredData).length / filterValues.perPage
+		);
 
 		$lastPaginationItem.attr('data-pagination-item', totalPagesCount);
 
 		let newMarkup = '';
-		for (let i = filterValues.page; i <= totalPagesCount; i ++ ) {
+		for (let i = filterValues.page; i <= totalPagesCount; i++) {
 			newMarkup += `
-				<a ${i !== filterValues.page ? 'href="#"' : ''} class="pagination__item ${i === filterValues.page ? 'is-active' : ''}" data-pagination-item="${i}">
+				<a ${i !== filterValues.page ? 'href="#"' : ''} class="pagination__item ${
+				i === filterValues.page ? 'is-active' : ''
+			}" data-pagination-item="${i}">
 					${i}
 				</a>
 			`;
@@ -189,8 +210,13 @@ export const filter = () => {
 			$paginationField.trigger('change');
 		}
 
-		$paginationItems.removeClass('is-active').attr('href', '#').filter((i, el) => {
-			return $(el).data('pagination-item') === +$paginationField.val();
-		}).addClass('is-active').removeAttr('href');
+		$paginationItems
+			.removeClass('is-active')
+			.attr('href', '#')
+			.filter((i, el) => {
+				return $(el).data('pagination-item') === +$paginationField.val();
+			})
+			.addClass('is-active')
+			.removeAttr('href');
 	});
 };
