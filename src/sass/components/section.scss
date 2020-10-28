@@ -11,10 +11,21 @@
 
 	&__decor {
 		position: absolute;
-		width: microbe-rem(280);
-		height: microbe-rem(160);
-		top: microbe-rem(-70);
+		z-index: -1;
+		width: microbe-rem(125);
+		height: microbe-rem(71.25);
+		top: 0;
 		left: 50%;
-		margin-left: microbe-rem(-140);
+		transform: translate(-50%, -25%);
+
+		@include microbe-media(768px) {
+			width: microbe-rem(200);
+			height: microbe-rem(114);
+		}
+
+		@include microbe-media(1024px) {
+			width: microbe-rem(280);
+			height: microbe-rem(160);
+		}
 	}
 }

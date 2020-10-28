@@ -1,44 +1,16 @@
 [
 	{
-		"id": "5f991f99dd9e1726d21109ea",
-		"brand": {
-			"id": 3,
-			"name": "MSMODELS"
-		},
-		"manufacturer": {
-			"id": 4,
-			"name": "Наш автопром"
-		},
-		"model": {
-			"id": 1,
-			"name": "Mercedes"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 2795
-		},
-		"image": {
-			"alt": "nostrud ut anim",
-			"sizes": {
-				"card-preview": "images/model3.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f993f04a31c2b074071",
+		"id": "5f998c8ef9095fba5e9db2f4",
 		"brand": {
 			"id": 2,
 			"name": "MSMODELS"
 		},
 		"manufacturer": {
-			"id": 4,
+			"id": 1,
 			"name": "Наш автопром"
 		},
 		"model": {
-			"id": 4,
+			"id": 3,
 			"name": "BMW"
 		},
 		"price": {
@@ -46,17 +18,221 @@
 				"id": 1,
 				"symbol": "$"
 			},
-			"value": 1585
+			"value": 210
 		},
+		"year": 2007,
 		"image": {
-			"alt": "incididunt eu sit",
+			"alt": "elit amet esse",
 			"sizes": {
-				"card-preview": "images/model2.jpg"
+				"card-preview": "images/model3.jpg"
 			}
 		}
 	},
 	{
-		"id": "5f991f998cc9a8f8c40a0a30",
+		"id": "5f998c8e6f5319db4faeb3c2",
+		"brand": {
+			"id": 2,
+			"name": "MSMODELS"
+		},
+		"manufacturer": {
+			"id": 2,
+			"name": "V43"
+		},
+		"model": {
+			"id": 3,
+			"name": "BMW"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 1446
+		},
+		"year": 2001,
+		"image": {
+			"alt": "aliqua incididunt elit",
+			"sizes": {
+				"card-preview": "images/model4.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8e07f319fbac8fd149",
+		"brand": {
+			"id": 3,
+			"name": "SCHUCO"
+		},
+		"manufacturer": {
+			"id": 1,
+			"name": "Наш автопром"
+		},
+		"model": {
+			"id": 2,
+			"name": "ЗиЛ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 1376
+		},
+		"year": 1987,
+		"image": {
+			"alt": "laboris culpa amet",
+			"sizes": {
+				"card-preview": "images/model3.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8e2b02b59ee5297efc",
+		"brand": {
+			"id": 1,
+			"name": "ELIGOR"
+		},
+		"manufacturer": {
+			"id": 1,
+			"name": "Наш автопром"
+		},
+		"model": {
+			"id": 3,
+			"name": "BMW"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 2494
+		},
+		"year": 2007,
+		"image": {
+			"alt": "ea ad sunt",
+			"sizes": {
+				"card-preview": "images/model4.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8eb9470a743853fa23",
+		"brand": {
+			"id": 2,
+			"name": "MSMODELS"
+		},
+		"manufacturer": {
+			"id": 1,
+			"name": "Наш автопром"
+		},
+		"model": {
+			"id": 3,
+			"name": "BMW"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 475
+		},
+		"year": 2018,
+		"image": {
+			"alt": "proident ut ipsum",
+			"sizes": {
+				"card-preview": "images/model5.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8edb1f8fe5c208a608",
+		"brand": {
+			"id": 2,
+			"name": "MSMODELS"
+		},
+		"manufacturer": {
+			"id": 3,
+			"name": "SSM"
+		},
+		"model": {
+			"id": 3,
+			"name": "BMW"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 1283
+		},
+		"year": 1985,
+		"image": {
+			"alt": "enim consectetur excepteur",
+			"sizes": {
+				"card-preview": "images/model4.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8e29e018ffbbdb5c14",
+		"brand": {
+			"id": 2,
+			"name": "MSMODELS"
+		},
+		"manufacturer": {
+			"id": 1,
+			"name": "Наш автопром"
+		},
+		"model": {
+			"id": 3,
+			"name": "BMW"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 629
+		},
+		"year": 2012,
+		"image": {
+			"alt": "ad ut sint",
+			"sizes": {
+				"card-preview": "images/model5.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8e7708ae23fb2e007b",
+		"brand": {
+			"id": 1,
+			"name": "ELIGOR"
+		},
+		"manufacturer": {
+			"id": 2,
+			"name": "V43"
+		},
+		"model": {
+			"id": 3,
+			"name": "BMW"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 1990
+		},
+		"year": 2012,
+		"image": {
+			"alt": "ex in ad",
+			"sizes": {
+				"card-preview": "images/model3.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8ed543c1830308b597",
 		"brand": {
 			"id": 3,
 			"name": "SCHUCO"
@@ -66,7 +242,7 @@
 			"name": "V43"
 		},
 		"model": {
-			"id": 5,
+			"id": 1,
 			"name": "ГАЗ"
 		},
 		"price": {
@@ -74,83 +250,28 @@
 				"id": 1,
 				"symbol": "$"
 			},
-			"value": 509
+			"value": 1030
 		},
+		"year": 1987,
 		"image": {
-			"alt": "elit do pariatur",
-			"sizes": {
-				"card-preview": "images/model4.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f997b43d3423913c26a",
-		"brand": {
-			"id": 2,
-			"name": "SCHUCO"
-		},
-		"manufacturer": {
-			"id": 2,
-			"name": "SSM"
-		},
-		"model": {
-			"id": 2,
-			"name": "BMW"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 1201
-		},
-		"image": {
-			"alt": "et dolore adipisicing",
+			"alt": "ut reprehenderit ullamco",
 			"sizes": {
 				"card-preview": "images/model3.jpg"
 			}
 		}
 	},
 	{
-		"id": "5f991f992441631927746d02",
+		"id": "5f998c8e20f0b93a0de10b77",
 		"brand": {
 			"id": 3,
-			"name": "MSMODELS"
-		},
-		"manufacturer": {
-			"id": 2,
-			"name": "MATRIX"
-		},
-		"model": {
-			"id": 3,
-			"name": "Mercedes"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 493
-		},
-		"image": {
-			"alt": "Lorem aliqua sunt",
-			"sizes": {
-				"card-preview": "images/model4.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f997dcc705e386d171a",
-		"brand": {
-			"id": 1,
 			"name": "SCHUCO"
 		},
 		"manufacturer": {
-			"id": 1,
-			"name": "SSM"
+			"id": 2,
+			"name": "V43"
 		},
 		"model": {
-			"id": 4,
+			"id": 3,
 			"name": "BMW"
 		},
 		"price": {
@@ -158,472 +279,25 @@
 				"id": 1,
 				"symbol": "$"
 			},
-			"value": 1542
+			"value": 2134
 		},
+		"year": 1973,
 		"image": {
-			"alt": "ea laboris ullamco",
-			"sizes": {
-				"card-preview": "images/model1.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f99af6bbf72cc425652",
-		"brand": {
-			"id": 1,
-			"name": "SCHUCO"
-		},
-		"manufacturer": {
-			"id": 2,
-			"name": "Наш автопром"
-		},
-		"model": {
-			"id": 4,
-			"name": "ГАЗ"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 1494
-		},
-		"image": {
-			"alt": "laboris proident pariatur",
-			"sizes": {
-				"card-preview": "images/model5.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f99d1c0ea076bfc4de3",
-		"brand": {
-			"id": 2,
-			"name": "ELIGOR"
-		},
-		"manufacturer": {
-			"id": 2,
-			"name": "NOREV"
-		},
-		"model": {
-			"id": 2,
-			"name": "Daimler"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 662
-		},
-		"image": {
-			"alt": "sit ipsum eiusmod",
-			"sizes": {
-				"card-preview": "images/model1.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f99650327b2e937814d",
-		"brand": {
-			"id": 3,
-			"name": "MSMODELS"
-		},
-		"manufacturer": {
-			"id": 2,
-			"name": "MATRIX"
-		},
-		"model": {
-			"id": 1,
-			"name": "Mercedes"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 618
-		},
-		"image": {
-			"alt": "consequat reprehenderit labore",
-			"sizes": {
-				"card-preview": "images/model5.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f993c7d88f7469f9fae",
-		"brand": {
-			"id": 1,
-			"name": "MSMODELS"
-		},
-		"manufacturer": {
-			"id": 3,
-			"name": "Наш автопром"
-		},
-		"model": {
-			"id": 4,
-			"name": "ГАЗ"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 1180
-		},
-		"image": {
-			"alt": "irure ipsum eiusmod",
+			"alt": "elit nisi veniam",
 			"sizes": {
 				"card-preview": "images/model6.jpg"
 			}
 		}
 	},
 	{
-		"id": "5f991f9901a0b7b1db661196",
-		"brand": {
-			"id": 1,
-			"name": "SCHUCO"
-		},
-		"manufacturer": {
-			"id": 1,
-			"name": "NOREV"
-		},
-		"model": {
-			"id": 5,
-			"name": "Mercedes"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 1895
-		},
-		"image": {
-			"alt": "eiusmod consequat do",
-			"sizes": {
-				"card-preview": "images/model3.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f99f6a40d94d542b9fa",
+		"id": "5f998c8e39f8f7c840da10f9",
 		"brand": {
 			"id": 1,
 			"name": "ELIGOR"
 		},
 		"manufacturer": {
-			"id": 4,
-			"name": "NOREV"
-		},
-		"model": {
-			"id": 3,
-			"name": "ГАЗ"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 2760
-		},
-		"image": {
-			"alt": "culpa Lorem consectetur",
-			"sizes": {
-				"card-preview": "images/model3.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f9930a75df56546cf2d",
-		"brand": {
-			"id": 1,
-			"name": "MSMODELS"
-		},
-		"manufacturer": {
-			"id": 1,
-			"name": "V43"
-		},
-		"model": {
-			"id": 2,
-			"name": "BMW"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 1870
-		},
-		"image": {
-			"alt": "labore veniam eiusmod",
-			"sizes": {
-				"card-preview": "images/model2.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f991a0bb51d6a20832b",
-		"brand": {
-			"id": 2,
-			"name": "SCHUCO"
-		},
-		"manufacturer": {
-			"id": 5,
-			"name": "MATRIX"
-		},
-		"model": {
-			"id": 1,
-			"name": "ГАЗ"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 781
-		},
-		"image": {
-			"alt": "velit culpa deserunt",
-			"sizes": {
-				"card-preview": "images/model3.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f995842c4492c623f74",
-		"brand": {
-			"id": 2,
-			"name": "SCHUCO"
-		},
-		"manufacturer": {
-			"id": 5,
-			"name": "SSM"
-		},
-		"model": {
-			"id": 1,
-			"name": "ЗиЛ"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 1967
-		},
-		"image": {
-			"alt": "irure ut eiusmod",
-			"sizes": {
-				"card-preview": "images/model2.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f999d3589ae727cdf54",
-		"brand": {
-			"id": 1,
-			"name": "MSMODELS"
-		},
-		"manufacturer": {
-			"id": 3,
-			"name": "Наш автопром"
-		},
-		"model": {
-			"id": 4,
-			"name": "BMW"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 2492
-		},
-		"image": {
-			"alt": "sint ad aliquip",
-			"sizes": {
-				"card-preview": "images/model3.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f99903d76b3dea7705c",
-		"brand": {
-			"id": 2,
-			"name": "SCHUCO"
-		},
-		"manufacturer": {
-			"id": 3,
-			"name": "NOREV"
-		},
-		"model": {
-			"id": 3,
-			"name": "ЗиЛ"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 1479
-		},
-		"image": {
-			"alt": "incididunt pariatur eu",
-			"sizes": {
-				"card-preview": "images/model4.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f99122d66f4909cc1f1",
-		"brand": {
-			"id": 2,
-			"name": "SCHUCO"
-		},
-		"manufacturer": {
-			"id": 1,
-			"name": "NOREV"
-		},
-		"model": {
-			"id": 5,
-			"name": "ГАЗ"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 2035
-		},
-		"image": {
-			"alt": "tempor eiusmod laborum",
-			"sizes": {
-				"card-preview": "images/model3.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f99112ec90b31d5111d",
-		"brand": {
-			"id": 3,
-			"name": "MSMODELS"
-		},
-		"manufacturer": {
 			"id": 2,
 			"name": "V43"
-		},
-		"model": {
-			"id": 4,
-			"name": "ГАЗ"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 1088
-		},
-		"image": {
-			"alt": "culpa amet excepteur",
-			"sizes": {
-				"card-preview": "images/model2.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f99b61b31403afb1f68",
-		"brand": {
-			"id": 3,
-			"name": "MSMODELS"
-		},
-		"manufacturer": {
-			"id": 1,
-			"name": "MATRIX"
-		},
-		"model": {
-			"id": 2,
-			"name": "BMW"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 1360
-		},
-		"image": {
-			"alt": "mollit pariatur duis",
-			"sizes": {
-				"card-preview": "images/model3.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f995a64fa23c28cf6d7",
-		"brand": {
-			"id": 1,
-			"name": "SCHUCO"
-		},
-		"manufacturer": {
-			"id": 5,
-			"name": "Наш автопром"
-		},
-		"model": {
-			"id": 3,
-			"name": "Mercedes"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 617
-		},
-		"image": {
-			"alt": "proident amet esse",
-			"sizes": {
-				"card-preview": "images/model3.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f99e54964a3b927e79e",
-		"brand": {
-			"id": 1,
-			"name": "MSMODELS"
-		},
-		"manufacturer": {
-			"id": 1,
-			"name": "V43"
-		},
-		"model": {
-			"id": 2,
-			"name": "ГАЗ"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 1699
-		},
-		"image": {
-			"alt": "elit mollit proident",
-			"sizes": {
-				"card-preview": "images/model5.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f990a99de82b5a10710",
-		"brand": {
-			"id": 3,
-			"name": "ELIGOR"
-		},
-		"manufacturer": {
-			"id": 3,
-			"name": "SSM"
 		},
 		"model": {
 			"id": 3,
@@ -634,135 +308,111 @@
 				"id": 1,
 				"symbol": "$"
 			},
-			"value": 369
+			"value": 1948
 		},
+		"year": 1994,
 		"image": {
-			"alt": "laborum fugiat veniam",
-			"sizes": {
-				"card-preview": "images/model4.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f9920c53e7e14e9fe08",
-		"brand": {
-			"id": 1,
-			"name": "MSMODELS"
-		},
-		"manufacturer": {
-			"id": 2,
-			"name": "V43"
-		},
-		"model": {
-			"id": 2,
-			"name": "ЗиЛ"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 1719
-		},
-		"image": {
-			"alt": "do aliqua nostrud",
+			"alt": "officia officia sunt",
 			"sizes": {
 				"card-preview": "images/model1.jpg"
 			}
 		}
 	},
 	{
-		"id": "5f991f9926ea1c58ed73a03a",
+		"id": "5f998c8e0eb0ecd2ee804544",
+		"brand": {
+			"id": 1,
+			"name": "ELIGOR"
+		},
+		"manufacturer": {
+			"id": 2,
+			"name": "V43"
+		},
+		"model": {
+			"id": 1,
+			"name": "ГАЗ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 1109
+		},
+		"year": 2006,
+		"image": {
+			"alt": "deserunt eiusmod esse",
+			"sizes": {
+				"card-preview": "images/model3.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8ebe76e4b42a6f151f",
 		"brand": {
 			"id": 2,
+			"name": "MSMODELS"
+		},
+		"manufacturer": {
+			"id": 2,
+			"name": "V43"
+		},
+		"model": {
+			"id": 1,
+			"name": "ГАЗ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 1931
+		},
+		"year": 1973,
+		"image": {
+			"alt": "mollit eu incididunt",
+			"sizes": {
+				"card-preview": "images/model1.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8ea260c23f97a4c467",
+		"brand": {
+			"id": 3,
 			"name": "SCHUCO"
 		},
 		"manufacturer": {
 			"id": 1,
-			"name": "SSM"
-		},
-		"model": {
-			"id": 5,
-			"name": "Mercedes"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 335
-		},
-		"image": {
-			"alt": "ex sit aute",
-			"sizes": {
-				"card-preview": "images/model3.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f995aa9cb0f72ab9f47",
-		"brand": {
-			"id": 2,
-			"name": "ELIGOR"
-		},
-		"manufacturer": {
-			"id": 4,
-			"name": "MATRIX"
-		},
-		"model": {
-			"id": 4,
-			"name": "Mercedes"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 2211
-		},
-		"image": {
-			"alt": "ex fugiat ea",
-			"sizes": {
-				"card-preview": "images/model6.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f99921e624149f2b96d",
-		"brand": {
-			"id": 1,
-			"name": "MSMODELS"
-		},
-		"manufacturer": {
-			"id": 3,
 			"name": "Наш автопром"
 		},
 		"model": {
-			"id": 1,
-			"name": "Daimler"
+			"id": 2,
+			"name": "ЗиЛ"
 		},
 		"price": {
 			"currency": {
 				"id": 1,
 				"symbol": "$"
 			},
-			"value": 2613
+			"value": 1112
 		},
+		"year": 2006,
 		"image": {
-			"alt": "aliquip non officia",
+			"alt": "in sint duis",
 			"sizes": {
-				"card-preview": "images/model3.jpg"
+				"card-preview": "images/model1.jpg"
 			}
 		}
 	},
 	{
-		"id": "5f991f99a3af1185fb8afc83",
+		"id": "5f998c8e72c1357af789604d",
 		"brand": {
 			"id": 2,
-			"name": "ELIGOR"
+			"name": "MSMODELS"
 		},
 		"manufacturer": {
-			"id": 1,
+			"id": 2,
 			"name": "V43"
 		},
 		"model": {
@@ -774,111 +424,173 @@
 				"id": 1,
 				"symbol": "$"
 			},
-			"value": 220
+			"value": 2700
 		},
+		"year": 2003,
 		"image": {
-			"alt": "minim mollit excepteur",
+			"alt": "mollit eiusmod ex",
+			"sizes": {
+				"card-preview": "images/model1.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8eedceeaa016254126",
+		"brand": {
+			"id": 3,
+			"name": "SCHUCO"
+		},
+		"manufacturer": {
+			"id": 3,
+			"name": "SSM"
+		},
+		"model": {
+			"id": 2,
+			"name": "ЗиЛ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 614
+		},
+		"year": 2013,
+		"image": {
+			"alt": "deserunt aliquip mollit",
 			"sizes": {
 				"card-preview": "images/model5.jpg"
 			}
 		}
 	},
 	{
-		"id": "5f991f99b75907236dadfdf4",
+		"id": "5f998c8ecd6c4790f11b254f",
 		"brand": {
-			"id": 2,
-			"name": "MSMODELS"
+			"id": 3,
+			"name": "SCHUCO"
 		},
 		"manufacturer": {
-			"id": 4,
+			"id": 2,
+			"name": "V43"
+		},
+		"model": {
+			"id": 3,
+			"name": "BMW"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 2864
+		},
+		"year": 2016,
+		"image": {
+			"alt": "et adipisicing commodo",
+			"sizes": {
+				"card-preview": "images/model3.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8e66a5e96f544f4cba",
+		"brand": {
+			"id": 1,
+			"name": "ELIGOR"
+		},
+		"manufacturer": {
+			"id": 1,
+			"name": "Наш автопром"
+		},
+		"model": {
+			"id": 2,
+			"name": "ЗиЛ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 1166
+		},
+		"year": 1993,
+		"image": {
+			"alt": "nisi labore quis",
+			"sizes": {
+				"card-preview": "images/model3.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8e07ac7e9be16f577c",
+		"brand": {
+			"id": 3,
+			"name": "SCHUCO"
+		},
+		"manufacturer": {
+			"id": 2,
 			"name": "V43"
 		},
 		"model": {
 			"id": 2,
-			"name": "ГАЗ"
+			"name": "ЗиЛ"
 		},
 		"price": {
 			"currency": {
 				"id": 1,
 				"symbol": "$"
 			},
-			"value": 2385
+			"value": 2511
 		},
+		"year": 2012,
 		"image": {
-			"alt": "ea ad cupidatat",
+			"alt": "consectetur pariatur exercitation",
 			"sizes": {
 				"card-preview": "images/model3.jpg"
 			}
 		}
 	},
 	{
-		"id": "5f991f99255fd658a13c3ca9",
-		"brand": {
-			"id": 1,
-			"name": "MSMODELS"
-		},
-		"manufacturer": {
-			"id": 3,
-			"name": "Наш автопром"
-		},
-		"model": {
-			"id": 1,
-			"name": "Mercedes"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 2971
-		},
-		"image": {
-			"alt": "aute ullamco dolor",
-			"sizes": {
-				"card-preview": "images/model3.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f993d154cae4eada681",
+		"id": "5f998c8ef7b9c1488fe8d135",
 		"brand": {
 			"id": 1,
 			"name": "ELIGOR"
 		},
 		"manufacturer": {
 			"id": 3,
-			"name": "MATRIX"
+			"name": "SSM"
 		},
 		"model": {
-			"id": 5,
-			"name": "ГАЗ"
+			"id": 3,
+			"name": "BMW"
 		},
 		"price": {
 			"currency": {
 				"id": 1,
 				"symbol": "$"
 			},
-			"value": 2465
+			"value": 1461
 		},
+		"year": 2012,
 		"image": {
-			"alt": "ut dolore non",
+			"alt": "tempor commodo nostrud",
 			"sizes": {
 				"card-preview": "images/model3.jpg"
 			}
 		}
 	},
 	{
-		"id": "5f991f9991df856c2b0cf7ae",
+		"id": "5f998c8e963b2e057458f1b2",
 		"brand": {
-			"id": 3,
+			"id": 2,
 			"name": "MSMODELS"
 		},
 		"manufacturer": {
-			"id": 3,
-			"name": "NOREV"
+			"id": 2,
+			"name": "V43"
 		},
 		"model": {
-			"id": 4,
+			"id": 1,
 			"name": "ГАЗ"
 		},
 		"price": {
@@ -886,55 +598,753 @@
 				"id": 1,
 				"symbol": "$"
 			},
-			"value": 1838
+			"value": 2527
 		},
+		"year": 2010,
 		"image": {
-			"alt": "ad Lorem fugiat",
-			"sizes": {
-				"card-preview": "images/model2.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f9984b606a8c5f1f782",
-		"brand": {
-			"id": 1,
-			"name": "MSMODELS"
-		},
-		"manufacturer": {
-			"id": 5,
-			"name": "V43"
-		},
-		"model": {
-			"id": 5,
-			"name": "Daimler"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 2620
-		},
-		"image": {
-			"alt": "tempor reprehenderit eu",
+			"alt": "pariatur Lorem excepteur",
 			"sizes": {
 				"card-preview": "images/model4.jpg"
 			}
 		}
 	},
 	{
-		"id": "5f991f99f1f27ad8f6bc7219",
+		"id": "5f998c8e8886621f41b97e4a",
+		"brand": {
+			"id": 3,
+			"name": "SCHUCO"
+		},
+		"manufacturer": {
+			"id": 2,
+			"name": "V43"
+		},
+		"model": {
+			"id": 2,
+			"name": "ЗиЛ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 760
+		},
+		"year": 2010,
+		"image": {
+			"alt": "deserunt ea anim",
+			"sizes": {
+				"card-preview": "images/model4.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8ee2ba630305364ff2",
+		"brand": {
+			"id": 1,
+			"name": "ELIGOR"
+		},
+		"manufacturer": {
+			"id": 1,
+			"name": "Наш автопром"
+		},
+		"model": {
+			"id": 2,
+			"name": "ЗиЛ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 830
+		},
+		"year": 1978,
+		"image": {
+			"alt": "in cupidatat aute",
+			"sizes": {
+				"card-preview": "images/model2.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8edee540f14173bc48",
+		"brand": {
+			"id": 1,
+			"name": "ELIGOR"
+		},
+		"manufacturer": {
+			"id": 1,
+			"name": "Наш автопром"
+		},
+		"model": {
+			"id": 1,
+			"name": "ГАЗ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 478
+		},
+		"year": 2003,
+		"image": {
+			"alt": "id eiusmod et",
+			"sizes": {
+				"card-preview": "images/model1.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8eef1314f5aac19b9f",
+		"brand": {
+			"id": 1,
+			"name": "ELIGOR"
+		},
+		"manufacturer": {
+			"id": 2,
+			"name": "V43"
+		},
+		"model": {
+			"id": 1,
+			"name": "ГАЗ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 2478
+		},
+		"year": 2006,
+		"image": {
+			"alt": "nisi voluptate esse",
+			"sizes": {
+				"card-preview": "images/model3.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8e3177c56d9fe20a77",
+		"brand": {
+			"id": 3,
+			"name": "SCHUCO"
+		},
+		"manufacturer": {
+			"id": 3,
+			"name": "SSM"
+		},
+		"model": {
+			"id": 2,
+			"name": "ЗиЛ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 810
+		},
+		"year": 2017,
+		"image": {
+			"alt": "proident amet culpa",
+			"sizes": {
+				"card-preview": "images/model5.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8ec895bc5b7e141e06",
 		"brand": {
 			"id": 2,
 			"name": "MSMODELS"
 		},
 		"manufacturer": {
-			"id": 4,
+			"id": 2,
+			"name": "V43"
+		},
+		"model": {
+			"id": 1,
+			"name": "ГАЗ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 2899
+		},
+		"year": 1976,
+		"image": {
+			"alt": "irure officia qui",
+			"sizes": {
+				"card-preview": "images/model5.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8ef3776797cc4195e3",
+		"brand": {
+			"id": 2,
+			"name": "MSMODELS"
+		},
+		"manufacturer": {
+			"id": 3,
 			"name": "SSM"
 		},
 		"model": {
-			"id": 5,
+			"id": 1,
+			"name": "ГАЗ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 1516
+		},
+		"year": 2002,
+		"image": {
+			"alt": "et ut sit",
+			"sizes": {
+				"card-preview": "images/model3.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8ee3308ccc54c6a94c",
+		"brand": {
+			"id": 2,
+			"name": "MSMODELS"
+		},
+		"manufacturer": {
+			"id": 1,
+			"name": "Наш автопром"
+		},
+		"model": {
+			"id": 2,
+			"name": "ЗиЛ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 2840
+		},
+		"year": 1989,
+		"image": {
+			"alt": "ea ad sunt",
+			"sizes": {
+				"card-preview": "images/model3.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8e3286923aeba5f888",
+		"brand": {
+			"id": 1,
+			"name": "ELIGOR"
+		},
+		"manufacturer": {
+			"id": 1,
+			"name": "Наш автопром"
+		},
+		"model": {
+			"id": 2,
+			"name": "ЗиЛ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 305
+		},
+		"year": 1973,
+		"image": {
+			"alt": "aute reprehenderit esse",
+			"sizes": {
+				"card-preview": "images/model6.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8e12b26f078f1ee423",
+		"brand": {
+			"id": 3,
+			"name": "SCHUCO"
+		},
+		"manufacturer": {
+			"id": 1,
+			"name": "Наш автопром"
+		},
+		"model": {
+			"id": 2,
+			"name": "ЗиЛ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 1220
+		},
+		"year": 1995,
+		"image": {
+			"alt": "eiusmod fugiat cillum",
+			"sizes": {
+				"card-preview": "images/model5.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8ecb6370fbd7d868e3",
+		"brand": {
+			"id": 3,
+			"name": "SCHUCO"
+		},
+		"manufacturer": {
+			"id": 1,
+			"name": "Наш автопром"
+		},
+		"model": {
+			"id": 2,
+			"name": "ЗиЛ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 251
+		},
+		"year": 1991,
+		"image": {
+			"alt": "deserunt veniam magna",
+			"sizes": {
+				"card-preview": "images/model6.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8ed13309f9049e0f7d",
+		"brand": {
+			"id": 2,
+			"name": "MSMODELS"
+		},
+		"manufacturer": {
+			"id": 1,
+			"name": "Наш автопром"
+		},
+		"model": {
+			"id": 1,
+			"name": "ГАЗ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 2073
+		},
+		"year": 1986,
+		"image": {
+			"alt": "exercitation et enim",
+			"sizes": {
+				"card-preview": "images/model5.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8e84ac148ea8b060f9",
+		"brand": {
+			"id": 2,
+			"name": "MSMODELS"
+		},
+		"manufacturer": {
+			"id": 2,
+			"name": "V43"
+		},
+		"model": {
+			"id": 1,
+			"name": "ГАЗ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 2535
+		},
+		"year": 1985,
+		"image": {
+			"alt": "eiusmod sunt duis",
+			"sizes": {
+				"card-preview": "images/model3.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8e6fc92d1bbc905da0",
+		"brand": {
+			"id": 3,
+			"name": "SCHUCO"
+		},
+		"manufacturer": {
+			"id": 3,
+			"name": "SSM"
+		},
+		"model": {
+			"id": 3,
+			"name": "BMW"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 1607
+		},
+		"year": 2005,
+		"image": {
+			"alt": "occaecat exercitation deserunt",
+			"sizes": {
+				"card-preview": "images/model1.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8eec943de18d1faa65",
+		"brand": {
+			"id": 2,
+			"name": "MSMODELS"
+		},
+		"manufacturer": {
+			"id": 1,
+			"name": "Наш автопром"
+		},
+		"model": {
+			"id": 2,
+			"name": "ЗиЛ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 1973
+		},
+		"year": 2015,
+		"image": {
+			"alt": "eiusmod anim cillum",
+			"sizes": {
+				"card-preview": "images/model1.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8e01ffd83453261ffa",
+		"brand": {
+			"id": 1,
+			"name": "ELIGOR"
+		},
+		"manufacturer": {
+			"id": 3,
+			"name": "SSM"
+		},
+		"model": {
+			"id": 2,
+			"name": "ЗиЛ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 1813
+		},
+		"year": 1983,
+		"image": {
+			"alt": "dolor laboris fugiat",
+			"sizes": {
+				"card-preview": "images/model5.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8ef8c9d0469e0b5049",
+		"brand": {
+			"id": 2,
+			"name": "MSMODELS"
+		},
+		"manufacturer": {
+			"id": 1,
+			"name": "Наш автопром"
+		},
+		"model": {
+			"id": 3,
+			"name": "BMW"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 1653
+		},
+		"year": 2012,
+		"image": {
+			"alt": "sint pariatur qui",
+			"sizes": {
+				"card-preview": "images/model5.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8e9dfcbc47e9d9c687",
+		"brand": {
+			"id": 1,
+			"name": "ELIGOR"
+		},
+		"manufacturer": {
+			"id": 1,
+			"name": "Наш автопром"
+		},
+		"model": {
+			"id": 2,
+			"name": "ЗиЛ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 2803
+		},
+		"year": 2006,
+		"image": {
+			"alt": "esse cillum consectetur",
+			"sizes": {
+				"card-preview": "images/model4.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8e43016b453814e05c",
+		"brand": {
+			"id": 3,
+			"name": "SCHUCO"
+		},
+		"manufacturer": {
+			"id": 1,
+			"name": "Наш автопром"
+		},
+		"model": {
+			"id": 1,
+			"name": "ГАЗ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 2931
+		},
+		"year": 1977,
+		"image": {
+			"alt": "voluptate laboris consectetur",
+			"sizes": {
+				"card-preview": "images/model1.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8eeed7d2b5c6be089a",
+		"brand": {
+			"id": 2,
+			"name": "MSMODELS"
+		},
+		"manufacturer": {
+			"id": 3,
+			"name": "SSM"
+		},
+		"model": {
+			"id": 1,
+			"name": "ГАЗ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 1733
+		},
+		"year": 2019,
+		"image": {
+			"alt": "proident adipisicing qui",
+			"sizes": {
+				"card-preview": "images/model4.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8e724cd8947e50cd9d",
+		"brand": {
+			"id": 3,
+			"name": "SCHUCO"
+		},
+		"manufacturer": {
+			"id": 1,
+			"name": "Наш автопром"
+		},
+		"model": {
+			"id": 1,
+			"name": "ГАЗ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 401
+		},
+		"year": 1977,
+		"image": {
+			"alt": "irure id incididunt",
+			"sizes": {
+				"card-preview": "images/model3.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8e979a7bbaeda4b358",
+		"brand": {
+			"id": 1,
+			"name": "ELIGOR"
+		},
+		"manufacturer": {
+			"id": 2,
+			"name": "V43"
+		},
+		"model": {
+			"id": 1,
+			"name": "ГАЗ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 983
+		},
+		"year": 2000,
+		"image": {
+			"alt": "ipsum laboris occaecat",
+			"sizes": {
+				"card-preview": "images/model2.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8e604eb8318c000e52",
+		"brand": {
+			"id": 3,
+			"name": "SCHUCO"
+		},
+		"manufacturer": {
+			"id": 3,
+			"name": "SSM"
+		},
+		"model": {
+			"id": 2,
+			"name": "ЗиЛ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 1974
+		},
+		"year": 1982,
+		"image": {
+			"alt": "fugiat officia ullamco",
+			"sizes": {
+				"card-preview": "images/model3.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8e219aa45540e6cd80",
+		"brand": {
+			"id": 2,
+			"name": "MSMODELS"
+		},
+		"manufacturer": {
+			"id": 1,
+			"name": "Наш автопром"
+		},
+		"model": {
+			"id": 1,
+			"name": "ГАЗ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 2746
+		},
+		"year": 1989,
+		"image": {
+			"alt": "eu consequat aliquip",
+			"sizes": {
+				"card-preview": "images/model1.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8ea5109ea74ea3be4a",
+		"brand": {
+			"id": 2,
+			"name": "MSMODELS"
+		},
+		"manufacturer": {
+			"id": 1,
+			"name": "Наш автопром"
+		},
+		"model": {
+			"id": 2,
+			"name": "ЗиЛ"
+		},
+		"price": {
+			"currency": {
+				"id": 1,
+				"symbol": "$"
+			},
+			"value": 2839
+		},
+		"year": 1990,
+		"image": {
+			"alt": "velit cupidatat commodo",
+			"sizes": {
+				"card-preview": "images/model4.jpg"
+			}
+		}
+	},
+	{
+		"id": "5f998c8e2c33a309d4fd6ba9",
+		"brand": {
+			"id": 3,
+			"name": "SCHUCO"
+		},
+		"manufacturer": {
+			"id": 3,
+			"name": "SSM"
+		},
+		"model": {
+			"id": 3,
 			"name": "BMW"
 		},
 		"price": {
@@ -944,374 +1354,11 @@
 			},
 			"value": 546
 		},
+		"year": 1977,
 		"image": {
-			"alt": "magna est sint",
-			"sizes": {
-				"card-preview": "images/model2.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f99480b050bbb95200a",
-		"brand": {
-			"id": 2,
-			"name": "SCHUCO"
-		},
-		"manufacturer": {
-			"id": 4,
-			"name": "NOREV"
-		},
-		"model": {
-			"id": 5,
-			"name": "BMW"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 1172
-		},
-		"image": {
-			"alt": "tempor eu cillum",
-			"sizes": {
-				"card-preview": "images/model4.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f990143494060f1ae13",
-		"brand": {
-			"id": 1,
-			"name": "MSMODELS"
-		},
-		"manufacturer": {
-			"id": 3,
-			"name": "Наш автопром"
-		},
-		"model": {
-			"id": 3,
-			"name": "Daimler"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 1749
-		},
-		"image": {
-			"alt": "sit cupidatat dolor",
-			"sizes": {
-				"card-preview": "images/model2.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f99f283ecd663bb2c06",
-		"brand": {
-			"id": 1,
-			"name": "ELIGOR"
-		},
-		"manufacturer": {
-			"id": 2,
-			"name": "SSM"
-		},
-		"model": {
-			"id": 4,
-			"name": "Daimler"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 1318
-		},
-		"image": {
-			"alt": "voluptate laborum deserunt",
-			"sizes": {
-				"card-preview": "images/model2.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f99d67ce3bec05a3058",
-		"brand": {
-			"id": 1,
-			"name": "MSMODELS"
-		},
-		"manufacturer": {
-			"id": 4,
-			"name": "NOREV"
-		},
-		"model": {
-			"id": 1,
-			"name": "Mercedes"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 2104
-		},
-		"image": {
-			"alt": "velit irure aliquip",
-			"sizes": {
-				"card-preview": "images/model2.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f99ba71fa2470ebced0",
-		"brand": {
-			"id": 3,
-			"name": "SCHUCO"
-		},
-		"manufacturer": {
-			"id": 3,
-			"name": "MATRIX"
-		},
-		"model": {
-			"id": 5,
-			"name": "ГАЗ"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 1557
-		},
-		"image": {
-			"alt": "tempor cupidatat amet",
+			"alt": "deserunt consectetur sunt",
 			"sizes": {
 				"card-preview": "images/model1.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f99257b2f179d7190e7",
-		"brand": {
-			"id": 1,
-			"name": "SCHUCO"
-		},
-		"manufacturer": {
-			"id": 3,
-			"name": "V43"
-		},
-		"model": {
-			"id": 3,
-			"name": "BMW"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 1138
-		},
-		"image": {
-			"alt": "in laborum do",
-			"sizes": {
-				"card-preview": "images/model4.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f99d0672e91a525761e",
-		"brand": {
-			"id": 3,
-			"name": "ELIGOR"
-		},
-		"manufacturer": {
-			"id": 2,
-			"name": "SSM"
-		},
-		"model": {
-			"id": 3,
-			"name": "Daimler"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 720
-		},
-		"image": {
-			"alt": "nostrud nostrud incididunt",
-			"sizes": {
-				"card-preview": "images/model2.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f9919dbfd8de2551ff2",
-		"brand": {
-			"id": 3,
-			"name": "ELIGOR"
-		},
-		"manufacturer": {
-			"id": 3,
-			"name": "MATRIX"
-		},
-		"model": {
-			"id": 2,
-			"name": "BMW"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 1524
-		},
-		"image": {
-			"alt": "proident sint ad",
-			"sizes": {
-				"card-preview": "images/model3.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f9916666b7e3ca979f9",
-		"brand": {
-			"id": 1,
-			"name": "SCHUCO"
-		},
-		"manufacturer": {
-			"id": 5,
-			"name": "V43"
-		},
-		"model": {
-			"id": 2,
-			"name": "Daimler"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 867
-		},
-		"image": {
-			"alt": "amet labore Lorem",
-			"sizes": {
-				"card-preview": "images/model2.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f999d4a3bca6a941ed9",
-		"brand": {
-			"id": 1,
-			"name": "SCHUCO"
-		},
-		"manufacturer": {
-			"id": 3,
-			"name": "NOREV"
-		},
-		"model": {
-			"id": 1,
-			"name": "ЗиЛ"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 334
-		},
-		"image": {
-			"alt": "sunt nulla laboris",
-			"sizes": {
-				"card-preview": "images/model5.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f99084ec870e4fd053d",
-		"brand": {
-			"id": 2,
-			"name": "MSMODELS"
-		},
-		"manufacturer": {
-			"id": 2,
-			"name": "SSM"
-		},
-		"model": {
-			"id": 2,
-			"name": "ЗиЛ"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 2046
-		},
-		"image": {
-			"alt": "in veniam ullamco",
-			"sizes": {
-				"card-preview": "images/model1.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f99843328718ca6bc26",
-		"brand": {
-			"id": 2,
-			"name": "SCHUCO"
-		},
-		"manufacturer": {
-			"id": 1,
-			"name": "Наш автопром"
-		},
-		"model": {
-			"id": 3,
-			"name": "ЗиЛ"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 1657
-		},
-		"image": {
-			"alt": "veniam duis laborum",
-			"sizes": {
-				"card-preview": "images/model6.jpg"
-			}
-		}
-	},
-	{
-		"id": "5f991f99225a287877877921",
-		"brand": {
-			"id": 2,
-			"name": "SCHUCO"
-		},
-		"manufacturer": {
-			"id": 2,
-			"name": "V43"
-		},
-		"model": {
-			"id": 3,
-			"name": "ЗиЛ"
-		},
-		"price": {
-			"currency": {
-				"id": 1,
-				"symbol": "$"
-			},
-			"value": 2888
-		},
-		"image": {
-			"alt": "nisi Lorem deserunt",
-			"sizes": {
-				"card-preview": "images/model6.jpg"
 			}
 		}
 	}

@@ -1,0 +1,44 @@
+@import 'settings/all';
+
+.pagination {
+	$this: &;
+
+	position: relative;
+	z-index: 2;
+	margin: microbe-rem(30) 0 microbe-rem(50);
+	display: flex;
+	align-items: safe center;
+
+	&__item {
+		margin: 0 microbe-rem(10);
+		color: $color-text-dark;
+		font-weight: 500;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+
+		&.is-active {
+			pointer-events: none;
+
+			&:not(#{$this}__item--theme-control) {
+				color: $color-text-light;
+				font-weight: 700;
+			}
+		}
+
+		&[href] {
+			transition: color 0.2s ease;
+			text-decoration: none;
+
+			@media (hover: hover) {
+				&:hover {
+					color: rgba($color-text-main, 0.7);
+				}
+
+				&:active {
+					color: $color-text-light;
+				}
+			}
+		}
+	}
+}

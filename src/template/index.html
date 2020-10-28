@@ -14,7 +14,7 @@
 			<div class="container"><%= htmlWebpackPlugin.options.title %></div>
 		</div>
 		<div class="section">
-			<div class="container">
+			<div class="container" data-filter='["page", "year", "price", "model", "manufacturer", "brand", "sort", "perPage"]'>
 				<div class="_grid _spacer _spacer--lg">
 					<div class="_cell _cell--12 _md:cell--4 _df:cell--3">
 						<h2>Категории</h2>
@@ -23,26 +23,26 @@
 								<div class="filter-set__name">Бренд</div>
 								<div class="filter-set__controls">
 									<label class="filter-label">
-										<input type="checkbox" name="brand" value="1" />
+										<input type="checkbox" name="brand[]" value="1" />
 										<span>ELIGOR</span>
 									</label>
 									<label class="filter-label">
-										<input type="checkbox" name="brand" value="2" />
+										<input type="checkbox" name="brand[]" value="2" />
 										<span>MSMODELS</span>
 									</label>
 									<label class="filter-label">
-										<input type="checkbox" name="brand" value="3" />
+										<input type="checkbox" name="brand[]" value="3" />
 										<span>SCHUCO</span>
 									</label>
 								</div>
 							</div>
 							<div class="filter-set">
 								<div class="filter-set__name">
-	                                <label for="marka">Производитель</label>
+	                                <label for="manufacturer">Производитель</label>
 	                            </div>
 								<div class="filter-set__controls">
-									<select id="marka" name="marka" class="select">
-										<option>Выбрать</option>
+									<select id="manufacturer" name="manufacturer" class="select">
+										<option value="">Выбрать</option>
 										<option value="1">Наш автопром</option>
 										<option value="2">V43</option>
 										<option value="3">SSM</option>
@@ -53,15 +53,15 @@
 							</div>
 							<div class="filter-set">
 								<div class="filter-set__name">
-									<label for="filter-model">Модель</label>
+									<label for="model">Модель</label>
 								</div>
 								<div class="filter-set__controls">
 									<select
-										id="filter-model"
-										name="filter-model"
+										id="model"
+										name="model"
 										class="select"
 									>
-										<option>Выбрать</option>
+										<option value="">Выбрать</option>
 										<option value="1">ГАЗ</option>
 										<option value="2">ЗиЛ</option>
 										<option value="3">BMW</option>
@@ -71,17 +71,92 @@
 								</div>
 							</div>
 							<div class="filter-set">
+								<div class="filter-set__name">
+									<label for="year">Год</label>
+								</div>
+								<div class="filter-set__controls">
+									<select
+										id="year"
+										name="year"
+										class="select"
+									>
+										<option value="">Выбрать</option>
+										<optgroup label="70-ые">
+											<option value="1973">1973</option>
+											<option value="1974">1974</option>
+											<option value="1975">1975</option>
+											<option value="1976">1976</option>
+											<option value="1977">1977</option>
+											<option value="1978">1978</option>
+											<option value="1979">1979</option>
+										</optgroup>
+										<optgroup label="80-ые">
+											<option value="1980">1980</option>
+											<option value="1981">1981</option>
+											<option value="1982">1982</option>
+											<option value="1983">1983</option>
+											<option value="1984">1984</option>
+											<option value="1985">1985</option>
+											<option value="1986">1986</option>
+											<option value="1987">1987</option>
+											<option value="1988">1988</option>
+											<option value="1989">1989</option>
+										</optgroup>
+										<optgroup label="90-ые">
+											<option value="1990">1990</option>
+											<option value="1991">1991</option>
+											<option value="1992">1992</option>
+											<option value="1993">1993</option>
+											<option value="1994">1994</option>
+											<option value="1995">1995</option>
+											<option value="1996">1996</option>
+											<option value="1997">1997</option>
+											<option value="1998">1998</option>
+											<option value="1999">1999</option>
+										</optgroup>
+										<optgroup label="2k">
+											<option value="2000">2000</option>
+											<option value="2001">2001</option>
+											<option value="2002">2002</option>
+											<option value="2003">2003</option>
+											<option value="2004">2004</option>
+											<option value="2005">2005</option>
+											<option value="2006">2006</option>
+											<option value="2007">2007</option>
+											<option value="2008">2008</option>
+											<option value="2009">2009</option>
+										</optgroup>
+										<optgroup label="2k10">
+											<option value="2010">2010</option>
+											<option value="2011">2011</option>
+											<option value="2012">2012</option>
+											<option value="2013">2013</option>
+											<option value="2014">2014</option>
+											<option value="2015">2015</option>
+											<option value="2016">2016</option>
+											<option value="2017">2017</option>
+											<option value="2018">2018</option>
+											<option value="2019">2019</option>
+										</optgroup>
+										<optgroup label="2k20">
+											<option value="2020">2020</option>
+											<option value="2021">2021</option>
+										</optgroup>
+									</select>
+								</div>
+							</div>
+							<div class="filter-set">
 								<div class="filter-set__name">Цена</div>
 								<div class="filter-set__controls">
 									<div class="_grid _grid--2 _spacer _spacer--md">
 										<div class="_cell">
 											<div class="_owl _owl--xs">
-												<label for="price-from">
+												<label for="price_from">
 													<small>От</small>
 												</label>
 												<input
-													id="price-from"
-													name="price-from"
+													id="price_from"
+													name="price[]"
 													type="number"
 													class="input _mt-xs"
 													value="100"
@@ -90,12 +165,12 @@
 										</div>
 										<div class="_cell">
 											<div class="_owl _owl--xs">
-												<label for="price-to">
+												<label for="price_to">
 													<small>До</small>
 												</label>
 												<input
-													id="price-to"
-													name="price-to"
+													id="price_to"
+													name="price[]"
 													type="number"
 													class="input _mt-xs"
 													value="3000"
@@ -109,7 +184,7 @@
 					</div>
 					<div class="_cell _cell--12 _md:cell--8 _df:cell--9">
 						<div class="_owl _owl--df">
-							<div class="_grid _grid--auto _spacer _spacer--md _justify-end">
+							<div class="_grid _grid--auto _spacer _spacer--md _justify-end" data-params>
 								<div class="_cell">
 									<div class="_owl _owl--xs">
 										<label for="sort">
@@ -124,31 +199,31 @@
 											<option value="1">От дешевых к дорогим</option>
 											<option value="2">От дорогих к дешевым</option>
 											<option value="3">От старых к новым</option>
-											<option value="3">От новых к старым</option>
+											<option value="4">От новых к старым</option>
 										</select>
 									</div>
 								</div>
 								<div class="_cell">
 									<div class="_owl _owl--xs">
-										<label for="per_page">
+										<label for="perPage">
 											<small>Кол-во элементов на страницу:</small>
 										</label>
 										<select
-											id="per_page"
-											name="per_page"
+											id="perPage"
+											name="perPage"
 											class="select"
 											form="filter"
 										>
-											<option value="1">6</option>
-											<option value="2">12</option>
-											<option value="2">24</option>
-											<option value="2">60</option>
+											<option value="6">6</option>
+											<option value="12">12</option>
+											<option value="24">24</option>
+											<option value="60">60</option>
 										</select>
 									</div>
 								</div>
 							</div>
-							<div class="_grid _spacer _spacer--lg">
-								<div class="_cell _cell--6 _md:cell--4">
+							<div class="_grid _spacer _spacer--lg" data-card-container>
+								<div class="_cell _cell--12 _xs:cell--6 _df:cell--4">
 									<div class="card">
 										<div class="card__top">
 											<div class="card__brand">ELIGOR</div>
@@ -159,20 +234,22 @@
 											/>
 										</div>
 										<div class="card__bottom">
-											<div
-												class="_grid _justify-between _flex-nowrap _mb-sm"
-											>
-												<div class="_gcell">
-													<div class="card__manufacturer">
-														Наш автопром
+											<div>
+												<div
+														class="_grid _justify-between _flex-nowrap _mb-sm"
+												>
+													<div class="_gcell">
+														<div class="card__manufacturer">
+															Наш автопром
+														</div>
+													</div>
+													<div class="_gcell">
+														<div class="card__year">2000 год</div>
 													</div>
 												</div>
-												<div class="_gcell">
-													<div class="card__year">2000 год</div>
+												<div class="card__model _mb-sm">
+													ГАЗ-61 (4х4) (1939) H365
 												</div>
-											</div>
-											<div class="card__model _mb-sm">
-												ГАЗ-61 (4х4) (1939) H365
 											</div>
 											<div class="_grid _justify-center">
 												<div class="_gcell">
@@ -182,7 +259,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="_cell _cell--6 _md:cell--4">
+								<div class="_cell _cell--12 _xs:cell--6 _df:cell--4">
 									<div class="card">
 										<div class="card__top">
 											<div class="card__brand">MSMODELS</div>
@@ -193,18 +270,20 @@
 											/>
 										</div>
 										<div class="card__bottom">
-											<div
-												class="_grid _justify-between _flex-nowrap _mb-sm"
-											>
-												<div class="_gcell">
-													<div class="card__manufacturer">V43</div>
+											<div>
+												<div
+														class="_grid _justify-between _flex-nowrap _mb-sm"
+												>
+													<div class="_gcell">
+														<div class="card__manufacturer">V43</div>
+													</div>
+													<div class="_gcell">
+														<div class="card__year">1983 год</div>
+													</div>
 												</div>
-												<div class="_gcell">
-													<div class="card__year">1983 год</div>
+												<div class="card__model _mb-sm">
+													ГАЗ-21И «Волга»
 												</div>
-											</div>
-											<div class="card__model _mb-sm">
-												ГАЗ-21И «Волга»
 											</div>
 											<div class="_grid _justify-center">
 												<div class="_gcell">
@@ -214,7 +293,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="_cell _cell--6 _md:cell--4">
+								<div class="_cell _cell--12 _xs:cell--6 _df:cell--4">
 									<div class="card">
 										<div class="card__top">
 											<div class="card__brand">ELIGOR</div>
@@ -225,18 +304,20 @@
 											/>
 										</div>
 										<div class="card__bottom">
-											<div
-												class="_grid _justify-between _flex-nowrap _mb-sm"
-											>
-												<div class="_gcell">
-													<div class="card__manufacturer">SSM</div>
+											<div>
+												<div
+														class="_grid _justify-between _flex-nowrap _mb-sm"
+												>
+													<div class="_gcell">
+														<div class="card__manufacturer">SSM</div>
+													</div>
+													<div class="_gcell">
+														<div class="card__year">2003 год</div>
+													</div>
 												</div>
-												<div class="_gcell">
-													<div class="card__year">2003 год</div>
+												<div class="card__model _mb-sm">
+													ЗиЛ-138 газобалонный
 												</div>
-											</div>
-											<div class="card__model _mb-sm">
-												ЗиЛ-138 газобалонный
 											</div>
 											<div class="_grid _justify-center">
 												<div class="_gcell">
@@ -246,7 +327,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="_cell _cell--6 _md:cell--4">
+								<div class="_cell _cell--12 _xs:cell--6 _df:cell--4">
 									<div class="card">
 										<div class="card__top">
 											<div class="card__brand">MSMODELS</div>
@@ -257,20 +338,22 @@
 											/>
 										</div>
 										<div class="card__bottom">
-											<div
-												class="_grid _justify-between _flex-nowrap _mb-sm"
-											>
-												<div class="_gcell">
-													<div class="card__manufacturer">
-														MATRIX
+											<div>
+												<div
+														class="_grid _justify-between _flex-nowrap _mb-sm"
+												>
+													<div class="_gcell">
+														<div class="card__manufacturer">
+															MATRIX
+														</div>
+													</div>
+													<div class="_gcell">
+														<div class="card__year">1995 год</div>
 													</div>
 												</div>
-												<div class="_gcell">
-													<div class="card__year">1995 год</div>
+												<div class="card__model _mb-sm">
+													Daimler DB18 Empress by Hooper
 												</div>
-											</div>
-											<div class="card__model _mb-sm">
-												Daimler DB18 Empress by Hooper
 											</div>
 											<div class="_grid _justify-center">
 												<div class="_gcell">
@@ -280,7 +363,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="_cell _cell--6 _md:cell--4">
+								<div class="_cell _cell--12 _xs:cell--6 _df:cell--4">
 									<div class="card">
 										<div class="card__top">
 											<div class="card__brand">SCHUCO</div>
@@ -291,19 +374,21 @@
 											/>
 										</div>
 										<div class="card__bottom">
-											<div
-												class="_grid _justify-between _flex-nowrap _mb-sm"
-											>
-												<div class="_gcell">
-													<div class="card__manufacturer">
-														MATRIX
+											<div>
+												<div
+														class="_grid _justify-between _flex-nowrap _mb-sm"
+												>
+													<div class="_gcell">
+														<div class="card__manufacturer">
+															MATRIX
+														</div>
+													</div>
+													<div class="_gcell">
+														<div class="card__year">1982 год</div>
 													</div>
 												</div>
-												<div class="_gcell">
-													<div class="card__year">1982 год</div>
-												</div>
+												<div class="card__model _mb-sm">BMW 503</div>
 											</div>
-											<div class="card__model _mb-sm">BMW 503</div>
 											<div class="_grid _justify-center">
 												<div class="_gcell">
 													<div class="card__price">$990</div>
@@ -312,7 +397,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="_cell _cell--6 _md:cell--4">
+								<div class="_cell _cell--12 _xs:cell--6 _df:cell--4">
 									<div class="card">
 										<div class="card__top">
 											<div class="card__brand">ELIGOR</div>
@@ -323,21 +408,23 @@
 											/>
 										</div>
 										<div class="card__bottom">
-											<div
-												class="_grid _justify-between _flex-nowrap _mb-sm"
-											>
-												<div class="_gcell">
-													<div class="card__manufacturer">
-														NOREV
+											<div>
+												<div
+														class="_grid _justify-between _flex-nowrap _mb-sm"
+												>
+													<div class="_gcell">
+														<div class="card__manufacturer">
+															NOREV
+														</div>
+													</div>
+													<div class="_gcell">
+														<div class="card__year">1973 год</div>
 													</div>
 												</div>
-												<div class="_gcell">
-													<div class="card__year">1973 год</div>
+												<div class="card__model _mb-sm">
+													Mercedes-Benz E-Class 200TE Station Wagon
+													T-Model
 												</div>
-											</div>
-											<div class="card__model _mb-sm">
-												Mercedes-Benz E-Class 200TE Station Wagon
-												T-Model
 											</div>
 											<div class="_grid _justify-center">
 												<div class="_gcell">
@@ -346,6 +433,40 @@
 											</div>
 										</div>
 									</div>
+								</div>
+							</div>
+							<div class="_flex _justify-center">
+								<div class="pagination" data-pagination="5">
+									<input form="filter" id="page" name="page" data-pagination-field type="hidden" value="1">
+									<a href="#" class="pagination__item pagination__item--theme-control" data-pagination-item="1">
+										<<
+									</a>
+									<a href="#" class="pagination__item pagination__item--theme-control" data-pagination-item="prev">
+										<
+									</a>
+									<div class="_flex _items-center" data-pagination-count-items>
+										<a class="pagination__item is-active" data-pagination-item="1">
+											1
+										</a>
+										<a href="#" class="pagination__item" data-pagination-item="2">
+											2
+										</a>
+										<a href="#" class="pagination__item" data-pagination-item="3">
+											3
+										</a>
+										<a href="#" class="pagination__item" data-pagination-item="4">
+											4
+										</a>
+										<a href="#" class="pagination__item" data-pagination-item="5">
+											5
+										</a>
+									</div>
+									<a href="#" class="pagination__item pagination__item--theme-control" data-pagination-item="next">
+										>
+									</a>
+									<a href="#" class="pagination__item pagination__item--theme-control" data-pagination-last data-pagination-item="5">
+										>>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -364,5 +485,43 @@
 				</div>
 			</div>
 		</div>
+	<template id="card-template">
+		<div class="_cell _cell--12 _xs:cell--6 _df:cell--4">
+			<div class="card">
+				<div class="card__top">
+					<div class="card__brand">{brand}</div>
+					<img
+						src="{image}"
+						alt="{alt}"
+						class="card__image"
+					/>
+				</div>
+				<div class="card__bottom">
+					<div>
+						<div
+								class="_grid _justify-between _flex-nowrap _mb-sm"
+						>
+							<div class="_gcell">
+								<div class="card__manufacturer">
+									{manufacturer}
+								</div>
+							</div>
+							<div class="_gcell">
+								<div class="card__year">{year} год</div>
+							</div>
+						</div>
+						<div class="card__model _mb-sm">
+							{model}
+						</div>
+					</div>
+					<div class="_grid _justify-center">
+						<div class="_gcell">
+							<div class="card__price">{currency}{price}</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</template>
 	</body>
 </html>

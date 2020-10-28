@@ -8,6 +8,7 @@ import jQuery from 'js#/lib/jquery';
 import 'sass#/style.scss';
 // scripts
 import { demo } from 'js#/modules/demo-module';
+import { filter } from 'js#/modules/filter';
 
 // -----------------------------------------------------------------------------
 // Initialize
@@ -15,4 +16,5 @@ import { demo } from 'js#/modules/demo-module';
 
 jQuery(function ($) {
 	demo();
+	filter();
 });
