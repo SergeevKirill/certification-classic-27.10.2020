@@ -9,6 +9,10 @@
 	display: flex;
 	align-items: safe center;
 
+	.no-results-found & {
+		display: none;
+	}
+
 	&__item {
 		margin: 0 microbe-rem(5);
 		color: $color-text-dark;

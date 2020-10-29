@@ -172,7 +172,13 @@ export const filter = () => {
 				return acc;
 			}, '');
 
-		$cardContainer.empty().html(sortedData);
+		if ($(sortedData).length) {
+			$('body').removeClass('no-results-found');
+			$cardContainer.empty().html(sortedData);
+		} else {
+			$('body').addClass('no-results-found');
+			$cardContainer.empty().html($('#empty').html());
+		}
 
 		if (prevPerPage !== filterValues.perPage) {
 			prevPerPage = filterValues.perPage;
