@@ -187,7 +187,7 @@ export const filter = () => {
 
 		const totalPagesCount = Math.ceil($($filteredData).length / filterValues.perPage);
 
-		$lastPaginationItem.attr('data-pagination-item', totalPagesCount);
+		$lastPaginationItem.data('pagination-item', totalPagesCount).attr('data-pagination-item', totalPagesCount);
 
 		let newMarkup = '';
 		const paginationFirstPageNumber =
