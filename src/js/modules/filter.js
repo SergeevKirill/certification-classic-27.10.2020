@@ -7,7 +7,6 @@ export const filter = () => {
 	const $inputFields = $container.find('input, select');
 	const encodeOrder = $container.data('filter');
 	const $pagination = $('[data-pagination]');
-	const maxPage = $pagination.data('pagination');
 	const $paginationItems = $pagination.find('[data-pagination-item]');
 	const $paginationField = $pagination.find('[data-pagination-field]');
 	const $cardContainer = $('[data-card-container]');
@@ -98,13 +97,21 @@ export const filter = () => {
 
 	let prevPerPage = getFilterValues().perPage;
 
-	$inputFields.on('change', () => {
+	$inputFields.on('change', (e) => {
 		console.log(getGroupedValues(getFilterValues()));
+		const _this = e.currentTarget;
+		if (_this.getAttribute('type') === 'number' && !_this.value) {
+			const $this = $(_this);
+			$this.val($this.attr('value'));
+			return true;
+		}
 		const filterValues = getFilterValues();
 		window.history.pushState(
 			{},
 			'',
-			`${window.location.href}?${encodeToUrl(filterValues)}`
+			`${window.location.href.replace(window.location.search, '')}?${encodeToUrl(
+				filterValues
+			)}`
 		);
 
 		const $filteredData = data.filter((el) => {
@@ -148,8 +155,8 @@ export const filter = () => {
 				}
 			})
 			.slice(
-				filterValues.page * filterValues.perPage,
-				filterValues.page * filterValues.perPage + filterValues.perPage
+				(filterValues.page - 1) * filterValues.perPage,
+				filterValues.page * filterValues.perPage
 			)
 			.reduce((acc, el) => {
 				acc += $template
@@ -168,17 +175,32 @@ export const filter = () => {
 		$cardContainer.empty().html(sortedData);
 
 		if (prevPerPage !== filterValues.perPage) {
+			prevPerPage = filterValues.perPage;
 			$paginationField.val(1).trigger('change');
 		}
 
-		const totalPagesCount = Math.round(
-			$($filteredData).length / filterValues.perPage
-		);
+		const totalPagesCount = Math.ceil($($filteredData).length / filterValues.perPage);
 
 		$lastPaginationItem.attr('data-pagination-item', totalPagesCount);
 
 		let newMarkup = '';
-		for (let i = filterValues.page; i <= totalPagesCount; i++) {
+		const paginationFirstPageNumber =
+			filterValues.page + 2 <= 4
+				? 1
+				: filterValues.page > totalPagesCount - 3
+				? totalPagesCount - 4 > 0
+					? totalPagesCount - 4
+					: 1
+				: filterValues.page - 2;
+		const paginationLastPageNumber =
+			filterValues.page + 2 <= 4
+				? totalPagesCount < 5
+					? totalPagesCount
+					: 5
+				: filterValues.page > totalPagesCount - 3
+				? totalPagesCount
+				: filterValues.page + 2;
+		for (let i = paginationFirstPageNumber; i <= paginationLastPageNumber; i++) {
 			newMarkup += `
 				<a ${i !== filterValues.page ? 'href="#"' : ''} class="pagination__item ${
 				i === filterValues.page ? 'is-active' : ''
@@ -188,12 +210,21 @@ export const filter = () => {
 			`;
 		}
 
+		$pagination
+			.data('pagination', totalPagesCount)
+			.attr('data-pagination', totalPagesCount);
+
 		$paginationCountItems.html(newMarkup);
+
+		if (_this.name !== 'page') {
+			$paginationField.val(1).trigger('change');
+		}
 	});
 
 	$pagination.on('click', '[data-pagination-item]', (e) => {
 		e.preventDefault();
 		const page = $(e.currentTarget).data('pagination-item');
+		const maxPage = $pagination.data('pagination');
 
 		if (page === 'prev') {
 			if (+$paginationField.val() !== 1) {
